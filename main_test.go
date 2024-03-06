@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	ftypes "github.com/openfaas/faas-provider/types"
+	ftypes "github.com/innoobijr/faas-provider/types"
 )
 
 func Test_makeFunctionURL_DefaultPathQS_IncludesGWAddress(t *testing.T) {

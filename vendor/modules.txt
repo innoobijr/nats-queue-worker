@@ -26,9 +26,9 @@ github.com/nats-io/nuid
 ## explicit; go 1.14
 github.com/nats-io/stan.go
 github.com/nats-io/stan.go/pb
-# github.com/openfaas/faas-provider v0.24.4
+# github.com/innoobijr/faas-provider v0.24.4
 ## explicit; go 1.20
-github.com/openfaas/faas-provider/types
+github.com/innoobijr/faas-provider/types
 # golang.org/x/crypto v0.17.0
 ## explicit; go 1.18
 golang.org/x/crypto/blake2b

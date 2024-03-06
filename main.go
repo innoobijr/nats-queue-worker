@@ -17,7 +17,7 @@ import (
 
 	stan "github.com/nats-io/stan.go"
 
-	ftypes "github.com/openfaas/faas-provider/types"
+	ftypes "github.com/innoobijr/faas-provider/types"
 	"github.com/openfaas/nats-queue-worker/nats"
 	"github.com/openfaas/nats-queue-worker/version"
 )
