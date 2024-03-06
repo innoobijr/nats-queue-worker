@@ -9,10 +9,10 @@ Migrate to OpenFaaS Standard for NATS JetStream, learn more:
 
 ## queue-worker (Community Edition) for NATS Streaming
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/openfaas/nats-queue-worker)](https://goreportcard.com/badge/github.com/openfaas/nats-queue-worker)
-[![Build Status](https://travis-ci.com/openfaas/nats-queue-worker.svg?branch=master)](https://travis-ci.com/openfaas/nats-queue-worker)
+[![Go Report Card](https://goreportcard.com/badge/github.com/innoobijr/nats-queue-worker)](https://goreportcard.com/badge/github.com/innoobijr/nats-queue-worker)
+[![Build Status](https://travis-ci.com/innoobijr/nats-queue-worker.svg?branch=master)](https://travis-ci.com/innoobijr/nats-queue-worker)
 
-[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/openfaas/nats-queue-worker?tab=overview)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/innoobijr/nats-queue-worker?tab=overview)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![OpenFaaS](https://img.shields.io/badge/openfaas-serverless-blue.svg)](https://www.openfaas.com)
 [![Derek App](https://alexellis.o6s.io/badge?owner=openfaas&repo=nats-queue-worker)](https://github.com/alexellis/derek/)

@@ -18,8 +18,8 @@ import (
 	stan "github.com/nats-io/stan.go"
 
 	ftypes "github.com/innoobijr/faas-provider/types"
-	"github.com/openfaas/nats-queue-worker/nats"
-	"github.com/openfaas/nats-queue-worker/version"
+	"github.com/innoobijr/nats-queue-worker/nats"
+	"github.com/innoobijr/nats-queue-worker/version"
 )
 
 const sharedQueue = "faas-request"

@@ -11,7 +11,7 @@ ARG TARGETARCH
 
 RUN apk add --no-cache git
 
-WORKDIR /go/src/github.com/openfaas/nats-queue-worker
+WORKDIR /go/src/github.com/innoobijr/nats-queue-worker
 
 COPY vendor     vendor
 COPY handler    handler
@@ -29,8 +29,8 @@ RUN test -z "$(gofmt -l $(find . -type f -name '*.go' -not -path "./vendor/*"))"
 RUN go test $(go list ./... | grep -v integration | grep -v /vendor/ | grep -v /template/) -cover
 
 RUN CGO_ENABLED=${CGO_ENABLED} GOOS=${TARGETOS} GOARCH=${TARGETARCH} go build --ldflags "-s -w \
-    -X \"github.com/openfaas/nats-queue-worker/version.GitCommit=${GIT_COMMIT}\" \
-    -X \"github.com/openfaas/nats-queue-worker/version.Version=${VERSION}\"" \
+    -X \"github.com/innoobijr/nats-queue-worker/version.GitCommit=${GIT_COMMIT}\" \
+    -X \"github.com/innoobijr/nats-queue-worker/version.Version=${VERSION}\"" \
     -a -installsuffix cgo -o worker .
 
 # we can't add user in next stage because it's from scratch
@@ -40,5 +40,5 @@ FROM --platform=${BUILDPLATFORM:-linux/amd64} gcr.io/distroless/static:nonroot
 
 WORKDIR /
 USER nonroot:nonroot
-COPY --from=build /go/src/github.com/openfaas/nats-queue-worker/worker    .
+COPY --from=build /go/src/github.com/innoobijr/nats-queue-worker/worker    .
 CMD ["/worker"]

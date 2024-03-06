@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/nats-io/stan.go v0.10.4
 	github.com/innoobijr/faas-provider v0.25.3
-	github.com/openfaas/nats-queue-worker v0.0.0-20231219105451-b94918cb8a24
+	github.com/innoobijr/nats-queue-worker v0.0.0-20231219105451-b94918cb8a24
 )
 
 require (

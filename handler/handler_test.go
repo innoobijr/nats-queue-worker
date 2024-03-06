@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openfaas/nats-queue-worker/nats"
+	"github.com/innoobijr/nats-queue-worker/nats"
 )
 
 func Test_GetClientID_ContainsHostname(t *testing.T) {
